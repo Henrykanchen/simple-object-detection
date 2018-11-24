@@ -10,10 +10,15 @@ Simple Object Detection Setup Guide
 6. $ git clone git@github.com:tensorflow/models.git <- copy the models/research/object_detection folder to repository; 
 delete models folder
 7. $ protoc object_detection/protos/*.proto --python_out=. 
-8. Edit tf_simple_object_detection.py
-9. Replace sys.path.append(<PATH_TO_TENSORFLOW>) with 'pwd/object_detection'
-10. Open the venv/bin/activate file, add the line
+8. Go to https://github.com/bourdakos1/Custom-Object-Detection/blob/master/object_detection/g3doc/detection_model_zoo.md; download pre-trained model; extract folder to your repository; remove everything other than the .pb file
+        
+9. go to http://www.cvlibs.net/datasets/kitti/raw_data.php?type=campus; download your dataset; extract to the images folder
+10. Edit tf_simple_object_detection.py
+        .modify PATH_TO_TEST_IMAGES_DIR to your dataset
+        .replace /home/hc/github/simple-object-detection/ with path of your repository
+11. Open the venv/bin/activate file, add the line
         export PYTHONPATH='pwd'
 
-12. $ sudo apt-get install python3-tk 
+
+
 13. $ python3 tf_simple_object_detection.py 

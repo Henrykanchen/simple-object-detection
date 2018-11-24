@@ -14,9 +14,9 @@ delete models folder
         
 9. go to http://www.cvlibs.net/datasets/kitti/raw_data.php?type=campus; download your dataset; extract to the images folder
 10. Edit tf_simple_object_detection.py
-        ..*modify PATH_TO_TEST_IMAGES_DIR to your dataset
-        ..*replace /home/hc/github/simple-object-detection/ with path of your repository
+..*modify PATH_TO_TEST_IMAGES_DIR to your dataset
+..*replace /home/hc/github/simple-object-detection/ with path of your repository
 11. Open the venv/bin/activate file, add the line
-        ..*export PYTHONPATH=path_to_your_repository
+..*export PYTHONPATH=path_to_your_repository
 
 12. $ python3 tf_simple_object_detection.py 

@@ -1,5 +1,0 @@
-tensorflow-gpu
-pillow
-lxml
-jupyter
-matplotlib

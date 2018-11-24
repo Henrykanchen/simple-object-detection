@@ -11,7 +11,7 @@ Simple Object Detection Setup Guide
 delete models folder
 7. $ protoc object_detection/protos/*.proto --python_out=. 
 8. Edit tf_simple_object_detection.py
-9. Replace <PATH_TO_TENSORFLOW> with <path to the simple-object-detection folder> 
+9. Replace <PATH_TO_TENSORFLOW> with 'pwd'
 10. Add the project to the venv/bin/activate of the virtualenv so the modules can be found
 11. export PYTHONPATH=<path to the simple-object-detection folder>
 12. $ sudo apt-get install python3-tk 

@@ -14,7 +14,7 @@ delete models folder
 9. Replace sys.path.append(<PATH_TO_TENSORFLOW>) with 'pwd'
 
 Add the project to the venv/bin/activate of the virtualenv so the modules can be found
-        export PYTHONPATH=<path to the simple-object-detection folder>
+        export PYTHONPATH='pwd'
 
 12. $ sudo apt-get install python3-tk 
 13. $ python3 tf_simple_object_detection.py 

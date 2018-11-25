@@ -22,3 +22,7 @@ Simple Object Detection Setup Guide
   - replace /home/hc/github/simple-object-detection/ with path of your repository
 
 13. $ python3 tf_simple_object_detection.py 
+
+
+
+Reference: https://github.com/edlectrico/tensorflow-simple-object-detection

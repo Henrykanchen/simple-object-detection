@@ -24,5 +24,6 @@ Simple Object Detection Setup Guide
 13. $ python3 tf_simple_object_detection.py 
 
 
+Note: to run tf_test.py -> python3 tf_test.py "gpu" 1500
 
 Reference: https://github.com/edlectrico/tensorflow-simple-object-detection
